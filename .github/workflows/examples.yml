@@ -50,7 +50,7 @@ jobs:
         if: always()
 
   go-junit:
-    name: Build and Test
+    name: Go / JUnit
     runs-on: ubuntu-latest
     env:
       EXAMPLE_PATH: "go-junit"
